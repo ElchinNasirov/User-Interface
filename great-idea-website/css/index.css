@@ -71,25 +71,35 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 900px;
-	margin-top: ;
+	/* margin-top: 20px; */
 	margin: auto;
 
 }
 
 header nav{
 	display: inline-block;
-	margin-top: 35px;
-
+	margin-top: 10px;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
 }
 
 header img.logo {
-	margin-left: 140px;
+	margin-left: 650px;
+	margin-top: 10px;
 }
 
 header nav a {
 	margin: 0 20px;
 	text-decoration: none;
-	color: grey;
+	color: whitesmoke;
+}
+
+nav a:hover {
+	background: whitesmoke;
+	color: black;
 }
 
 .header-part {
@@ -125,7 +135,7 @@ button {
 	display: inline-block;
 	width: 40%;
 	padding: 5px;
-	margin: 20px;
+	margin-bottom: 20px;
 }
 
 .bottom-text-part {
@@ -143,4 +153,12 @@ button {
 .footer {
 	text-align: center;
 	margin-bottom: 40px;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+}
+
+p {
+	font-family: 'Mansalva', cursive;
 }
